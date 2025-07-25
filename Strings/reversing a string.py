@@ -12,3 +12,13 @@ def reversed_string(s):
     return result
 print(reversed_string("hello"))
 print(reversed_string("uditi"))
+
+#Method3-Two Pointer Approach:
+def reversed_string(s):
+    s=list(s)
+    left=0
+    right=len(s)-1
+    s[left],s[right]==s[right],s[left]
+    left+=1
+    right-=1
+    return ".join(s)
